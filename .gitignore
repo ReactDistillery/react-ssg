@@ -1,0 +1,9 @@
+.DS_STORE
+thumbs.db
+node_modules
+build
+npm-debug.log*
+package-lock.json
+dll.vendor.js
+yarn-error.log*
+*.log

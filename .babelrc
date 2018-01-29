@@ -1,0 +1,40 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        ["env", {
+          "modules": false,
+          "targets": {
+            "browsers": [
+              "> 1%",
+              "last 2 versions",
+              "IE 11",
+              "IE 10",
+              "IE 9"
+            ]
+          }
+        }],
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        "transform-decorators-legacy"
+      ]
+    },
+    "static": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "8.0"
+          }
+        }],
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        "transform-decorators-legacy"
+      ],
+      "compact": true
+    }
+  }
+}
