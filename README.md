@@ -1,1 +1,2 @@
-# react-ssg
+# React SSG
+### A Simple, Exceptionally Powerful Static Site Generator
